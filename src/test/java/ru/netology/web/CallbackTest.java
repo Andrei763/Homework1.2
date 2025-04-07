@@ -33,11 +33,7 @@ class CallbackTest {
         driver.get("http://localhost:9999");
     }
 
-    @AfterEach
-    void tearDown() {
-        driver.quit();
-        driver = null;
-    }
+
 
     @Test
     void shouldTestV1() {
